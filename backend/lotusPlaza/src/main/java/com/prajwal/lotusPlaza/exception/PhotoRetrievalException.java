@@ -1,0 +1,8 @@
+package com.prajwal.lotusPlaza.exception;
+
+public class PhotoRetrievalException extends RuntimeException {
+
+	public PhotoRetrievalException(String message) {
+        super(message);
+    }
+}
